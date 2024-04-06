@@ -1,0 +1,15 @@
+C:\Users\313\Desktop\cafe-project\cafeshop\bin\Debug\netcoreapp3.1\cafeshop.exe
+C:\Users\313\Desktop\cafe-project\cafeshop\bin\Debug\netcoreapp3.1\cafeshop.deps.json
+C:\Users\313\Desktop\cafe-project\cafeshop\bin\Debug\netcoreapp3.1\cafeshop.runtimeconfig.json
+C:\Users\313\Desktop\cafe-project\cafeshop\bin\Debug\netcoreapp3.1\cafeshop.runtimeconfig.dev.json
+C:\Users\313\Desktop\cafe-project\cafeshop\bin\Debug\netcoreapp3.1\cafeshop.dll
+C:\Users\313\Desktop\cafe-project\cafeshop\bin\Debug\netcoreapp3.1\cafeshop.pdb
+C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.csprojAssemblyReference.cache
+C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.Form1.resources
+C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.csproj.GenerateResource.cache
+C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.AssemblyInfoInputs.cache
+C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.AssemblyInfo.cs
+C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.csproj.CoreCompileInputs.cache
+C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.dll
+C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.pdb
+C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.genruntimeconfig.cache
