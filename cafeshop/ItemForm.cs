@@ -24,5 +24,10 @@ namespace cafeshop
         {
             Application.Exit();
         }
+
+        private void ItemForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
