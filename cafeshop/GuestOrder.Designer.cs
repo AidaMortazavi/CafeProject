@@ -1,6 +1,6 @@
 ﻿namespace cafeshop
 {
-    partial class ItemForm
+    partial class GuestOrder
     {
         /// <summary>
         /// Required designer variable.

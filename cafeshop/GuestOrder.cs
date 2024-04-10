@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace cafeshop
 {
-    public partial class ItemForm : Form
+    public partial class GuestOrder : Form
     {
-        public ItemForm()
+        public GuestOrder()
         {
             InitializeComponent();
         }
