@@ -13,4 +13,7 @@ C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.cspr
 C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.dll
 C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.pdb
 C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.genruntimeconfig.cache
-C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.ItemForm.resources
+C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.GuestOrder.resources
+C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.ItemsForm.resources
+C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.UserForm.resources
+C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.UserOrder.resources

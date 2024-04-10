@@ -209,8 +209,9 @@
             this.label2.Size = new System.Drawing.Size(88, 27);
             this.label2.TabIndex = 1;
             this.label2.Text = "LogOut";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // ItemForm
+            // GuestOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -220,7 +221,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "ItemForm";
+            this.Name = "GuestOrder";
             this.Text = "ItemForm";
             this.Load += new System.EventHandler(this.ItemForm_Load);
             this.panel1.ResumeLayout(false);
