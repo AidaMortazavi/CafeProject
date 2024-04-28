@@ -150,6 +150,7 @@
             this.label4.Size = new System.Drawing.Size(71, 27);
             this.label4.TabIndex = 1;
             this.label4.Text = "Guest";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // Form1
             // 

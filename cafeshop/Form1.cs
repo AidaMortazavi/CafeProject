@@ -21,5 +21,12 @@ namespace cafeshop
         {
             Application.Exit();
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            GuestOrder guest = new GuestOrder();
+            guest.Show();
+        }
     }
 }
