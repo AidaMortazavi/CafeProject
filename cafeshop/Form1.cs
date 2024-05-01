@@ -28,5 +28,12 @@ namespace cafeshop
             GuestOrder guest = new GuestOrder();
             guest.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            UserOrder uorder = new UserOrder();
+            uorder.Show();
+        }
     }
 }

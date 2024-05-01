@@ -15,11 +15,9 @@ namespace cafeshop
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void UserOrder_Load(object sender, EventArgs e)
         {
-            this.Hide();
-            Form1 Login = new Form1();
-            Login.Show();
+
         }
     }
 }
