@@ -14,10 +14,5 @@ namespace cafeshop
         {
             InitializeComponent();
         }
-
-        private void UserOrder_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
