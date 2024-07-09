@@ -17,12 +17,21 @@ namespace cafeshop
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Form1 Login = new Form1();
+            Login.Show();
         }
 
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            ItemsForm Items = new ItemsForm();
+            Items.Show();
+        }
 
+        private void label5_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
