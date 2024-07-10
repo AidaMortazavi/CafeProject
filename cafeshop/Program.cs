@@ -17,7 +17,7 @@ namespace cafeshop
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new UserOrder());
+            Application.Run(new UserForm());
         }
     }
 }

@@ -31,19 +31,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.listView2 = new System.Windows.Forms.ListView();
@@ -55,9 +45,19 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -105,155 +105,52 @@
             this.panel1.Size = new System.Drawing.Size(1136, 784);
             this.panel1.TabIndex = 2;
             // 
-            // listView1
+            // panel2
             // 
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(362, 155);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(725, 586);
-            this.listView1.TabIndex = 3;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.button6);
+            this.panel2.Controls.Add(this.button5);
+            this.panel2.Controls.Add(this.button4);
+            this.panel2.Controls.Add(this.label8);
+            this.panel2.Controls.Add(this.listView2);
+            this.panel2.Controls.Add(this.comboBox2);
+            this.panel2.Controls.Add(this.label9);
+            this.panel2.Controls.Add(this.textBox4);
+            this.panel2.Controls.Add(this.label10);
+            this.panel2.Controls.Add(this.textBox5);
+            this.panel2.Controls.Add(this.textBox6);
+            this.panel2.Controls.Add(this.label11);
+            this.panel2.Controls.Add(this.label12);
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1144, 792);
+            this.panel2.TabIndex = 2;
             // 
-            // comboBox1
+            // button6
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Drink",
-            "Lunch",
-            "Dinner"});
-            this.comboBox1.Location = new System.Drawing.Point(178, 270);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(159, 35);
-            this.comboBox1.TabIndex = 3;
-            this.comboBox1.Text = "Category";
+            this.button6.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.button6.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button6.Location = new System.Drawing.Point(218, 426);
+            this.button6.Name = "button6";
+            this.button6.Padding = new System.Windows.Forms.Padding(2);
+            this.button6.Size = new System.Drawing.Size(97, 43);
+            this.button6.TabIndex = 3;
+            this.button6.Text = "Delete";
+            this.button6.UseVisualStyleBackColor = false;
             // 
-            // label6
+            // button5
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Leelawadee", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label6.Location = new System.Drawing.Point(33, 203);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(144, 34);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "ItemName";
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.textBox3.Location = new System.Drawing.Point(183, 213);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(154, 20);
-            this.textBox3.TabIndex = 2;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Leelawadee", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label5.Location = new System.Drawing.Point(33, 334);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(131, 34);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "ItemPrice";
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.textBox2.Location = new System.Drawing.Point(183, 344);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(154, 20);
-            this.textBox2.TabIndex = 2;
-            this.textBox2.Text = "Quantity";
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.textBox1.Location = new System.Drawing.Point(183, 165);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(154, 20);
-            this.textBox1.TabIndex = 2;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Leelawadee", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label4.Location = new System.Drawing.Point(33, 155);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(131, 34);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "ItemNum";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Leelawadee", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label3.Location = new System.Drawing.Point(502, 10);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(249, 44);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Manage Items";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Leelawadee", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label7.Location = new System.Drawing.Point(633, 95);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(174, 44);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Items List";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Leelawadee", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.button1.Location = new System.Drawing.Point(12, 177);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(2);
-            this.button1.Size = new System.Drawing.Size(114, 54);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Order ";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.Font = new System.Drawing.Font("Leelawadee", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.button2.Location = new System.Drawing.Point(12, 280);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(2);
-            this.button2.Size = new System.Drawing.Size(114, 54);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Users";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.button3.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button3.Location = new System.Drawing.Point(33, 426);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(2);
-            this.button3.Size = new System.Drawing.Size(97, 43);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Add";
-            this.button3.UseVisualStyleBackColor = false;
+            this.button5.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.button5.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button5.Location = new System.Drawing.Point(115, 426);
+            this.button5.Name = "button5";
+            this.button5.Padding = new System.Windows.Forms.Padding(2);
+            this.button5.Size = new System.Drawing.Size(97, 43);
+            this.button5.TabIndex = 3;
+            this.button5.Text = "Edite";
+            this.button5.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
@@ -373,52 +270,157 @@
             this.label12.TabIndex = 0;
             this.label12.Text = "Manage Items";
             // 
-            // panel2
+            // button3
             // 
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.button6);
-            this.panel2.Controls.Add(this.button5);
-            this.panel2.Controls.Add(this.button4);
-            this.panel2.Controls.Add(this.label8);
-            this.panel2.Controls.Add(this.listView2);
-            this.panel2.Controls.Add(this.comboBox2);
-            this.panel2.Controls.Add(this.label9);
-            this.panel2.Controls.Add(this.textBox4);
-            this.panel2.Controls.Add(this.label10);
-            this.panel2.Controls.Add(this.textBox5);
-            this.panel2.Controls.Add(this.textBox6);
-            this.panel2.Controls.Add(this.label11);
-            this.panel2.Controls.Add(this.label12);
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1144, 792);
-            this.panel2.TabIndex = 2;
+            this.button3.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.button3.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button3.Location = new System.Drawing.Point(33, 426);
+            this.button3.Name = "button3";
+            this.button3.Padding = new System.Windows.Forms.Padding(2);
+            this.button3.Size = new System.Drawing.Size(97, 43);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "Add";
+            this.button3.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // label7
             // 
-            this.button5.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.button5.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button5.Location = new System.Drawing.Point(115, 426);
-            this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(2);
-            this.button5.Size = new System.Drawing.Size(97, 43);
-            this.button5.TabIndex = 3;
-            this.button5.Text = "Edite";
-            this.button5.UseVisualStyleBackColor = false;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Leelawadee", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.label7.Location = new System.Drawing.Point(633, 95);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(174, 44);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Items List";
             // 
-            // button6
+            // listView1
             // 
-            this.button6.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.button6.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button6.Location = new System.Drawing.Point(218, 426);
-            this.button6.Name = "button6";
-            this.button6.Padding = new System.Windows.Forms.Padding(2);
-            this.button6.Size = new System.Drawing.Size(97, 43);
-            this.button6.TabIndex = 3;
-            this.button6.Text = "Delete";
-            this.button6.UseVisualStyleBackColor = false;
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(362, 155);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(725, 586);
+            this.listView1.TabIndex = 3;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Drink",
+            "Lunch",
+            "Dinner"});
+            this.comboBox1.Location = new System.Drawing.Point(178, 270);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(159, 35);
+            this.comboBox1.TabIndex = 3;
+            this.comboBox1.Text = "Category";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Leelawadee", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.label6.Location = new System.Drawing.Point(33, 203);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(144, 34);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "ItemName";
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.textBox3.Location = new System.Drawing.Point(183, 213);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(154, 20);
+            this.textBox3.TabIndex = 2;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Leelawadee", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.label5.Location = new System.Drawing.Point(33, 334);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(131, 34);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "ItemPrice";
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.textBox2.Location = new System.Drawing.Point(183, 344);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(154, 20);
+            this.textBox2.TabIndex = 2;
+            this.textBox2.Text = "Quantity";
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.textBox1.Location = new System.Drawing.Point(183, 165);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(154, 20);
+            this.textBox1.TabIndex = 2;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Leelawadee", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.label4.Location = new System.Drawing.Point(33, 155);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(131, 34);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "ItemNum";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Leelawadee", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.label3.Location = new System.Drawing.Point(502, 10);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(249, 44);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Manage Items";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.Font = new System.Drawing.Font("Leelawadee", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.button1.Location = new System.Drawing.Point(12, 177);
+            this.button1.Name = "button1";
+            this.button1.Padding = new System.Windows.Forms.Padding(2);
+            this.button1.Size = new System.Drawing.Size(114, 54);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Order ";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.Font = new System.Drawing.Font("Leelawadee", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.button2.Location = new System.Drawing.Point(12, 280);
+            this.button2.Name = "button2";
+            this.button2.Padding = new System.Windows.Forms.Padding(2);
+            this.button2.Size = new System.Drawing.Size(114, 54);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Users";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // ItemsForm
             // 

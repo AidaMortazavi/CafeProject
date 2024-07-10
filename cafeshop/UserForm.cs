@@ -21,5 +21,29 @@ namespace cafeshop
             Form1 Login = new Form1();
             Login.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            UserOrder uOrder = new UserOrder();
+            uOrder.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ItemsForm itemF = new ItemsForm();
+            itemF.Show();
+        }
     }
 }
