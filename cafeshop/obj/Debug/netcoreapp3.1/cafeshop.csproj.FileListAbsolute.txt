@@ -9,7 +9,6 @@ C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.Form
 C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.csproj.GenerateResource.cache
 C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.AssemblyInfoInputs.cache
 C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.AssemblyInfo.cs
-C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.csproj.CoreCompileInputs.cache
 C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.dll
 C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.pdb
 C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.genruntimeconfig.cache
