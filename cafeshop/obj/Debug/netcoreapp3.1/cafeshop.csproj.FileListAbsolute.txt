@@ -16,3 +16,11 @@ C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.Gues
 C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.ItemsForm.resources
 C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.UserForm.resources
 C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.UserOrder.resources
+C:\Users\313\Desktop\cafe-project\cafeshop\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\313\Desktop\cafe-project\cafeshop\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\313\Desktop\cafe-project\cafeshop\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\313\Desktop\cafe-project\cafeshop\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\313\Desktop\cafe-project\cafeshop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\313\Desktop\cafe-project\cafeshop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.csproj.CoreCompileInputs.cache
+C:\Users\313\Desktop\cafe-project\cafeshop\obj\Debug\netcoreapp3.1\cafeshop.csproj.CopyComplete
