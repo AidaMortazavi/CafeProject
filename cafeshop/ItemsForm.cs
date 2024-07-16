@@ -45,5 +45,10 @@ namespace cafeshop
             UserOrder orderItem =new UserOrder();
             orderItem.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
