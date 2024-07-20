@@ -34,9 +34,9 @@ namespace cafeshop
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.UPasswordTb = new System.Windows.Forms.TextBox();
-            this.UPhoneTb = new System.Windows.Forms.TextBox();
-            this.UNameTb = new System.Windows.Forms.TextBox();
+            this.txt_Pass = new System.Windows.Forms.TextBox();
+            this.txt_Phone = new System.Windows.Forms.TextBox();
+            this.txt_Name = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -57,9 +57,9 @@ namespace cafeshop
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.UPasswordTb);
-            this.panel1.Controls.Add(this.UPhoneTb);
-            this.panel1.Controls.Add(this.UNameTb);
+            this.panel1.Controls.Add(this.txt_Pass);
+            this.panel1.Controls.Add(this.txt_Phone);
+            this.panel1.Controls.Add(this.txt_Name);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
@@ -105,6 +105,7 @@ namespace cafeshop
             this.button2.TabIndex = 9;
             this.button2.Text = "Edite";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -119,29 +120,29 @@ namespace cafeshop
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // UPasswordTb
+            // txt_Pass
             // 
-            this.UPasswordTb.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.UPasswordTb.Location = new System.Drawing.Point(198, 281);
-            this.UPasswordTb.Name = "UPasswordTb";
-            this.UPasswordTb.Size = new System.Drawing.Size(154, 27);
-            this.UPasswordTb.TabIndex = 7;
+            this.txt_Pass.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.txt_Pass.Location = new System.Drawing.Point(198, 281);
+            this.txt_Pass.Name = "txt_Pass";
+            this.txt_Pass.Size = new System.Drawing.Size(154, 27);
+            this.txt_Pass.TabIndex = 7;
             // 
-            // UPhoneTb
+            // txt_Phone
             // 
-            this.UPhoneTb.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.UPhoneTb.Location = new System.Drawing.Point(198, 220);
-            this.UPhoneTb.Name = "UPhoneTb";
-            this.UPhoneTb.Size = new System.Drawing.Size(154, 27);
-            this.UPhoneTb.TabIndex = 6;
+            this.txt_Phone.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.txt_Phone.Location = new System.Drawing.Point(198, 220);
+            this.txt_Phone.Name = "txt_Phone";
+            this.txt_Phone.Size = new System.Drawing.Size(154, 27);
+            this.txt_Phone.TabIndex = 6;
             // 
-            // UNameTb
+            // txt_Name
             // 
-            this.UNameTb.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.UNameTb.Location = new System.Drawing.Point(198, 161);
-            this.UNameTb.Name = "UNameTb";
-            this.UNameTb.Size = new System.Drawing.Size(154, 27);
-            this.UNameTb.TabIndex = 5;
+            this.txt_Name.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.txt_Name.Location = new System.Drawing.Point(198, 161);
+            this.txt_Name.Name = "txt_Name";
+            this.txt_Name.Size = new System.Drawing.Size(154, 27);
+            this.txt_Name.TabIndex = 5;
             // 
             // label5
             // 
@@ -282,9 +283,9 @@ namespace cafeshop
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label UName;
-        private System.Windows.Forms.TextBox UPasswordTb;
-        private System.Windows.Forms.TextBox UPhoneTb;
-        private System.Windows.Forms.TextBox UNameTb;
+        private System.Windows.Forms.TextBox txt_Pass;
+        private System.Windows.Forms.TextBox txt_Phone;
+        private System.Windows.Forms.TextBox txt_Name;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
