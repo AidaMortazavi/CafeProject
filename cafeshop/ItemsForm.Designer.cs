@@ -130,6 +130,7 @@
             // 
             // ItemsGV
             // 
+            this.ItemsGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.ItemsGV.BackgroundColor = System.Drawing.Color.PaleTurquoise;
             this.ItemsGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.ItemsGV.Location = new System.Drawing.Point(482, 193);

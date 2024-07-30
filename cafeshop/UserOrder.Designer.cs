@@ -29,58 +29,109 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.listView2 = new System.Windows.Forms.ListView();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.Num = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Item = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Category = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.UnitPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Total = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ItemsGV = new System.Windows.Forms.DataGridView();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_Quantity = new System.Windows.Forms.TextBox();
+            this.txt_SellerName = new System.Windows.Forms.TextBox();
+            this.txt_OrderName = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ItemsGV)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.listView2);
-            this.panel1.Controls.Add(this.listView1);
+            this.panel1.Controls.Add(this.dataGridView2);
+            this.panel1.Controls.Add(this.ItemsGV);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.txt_Quantity);
+            this.panel1.Controls.Add(this.txt_SellerName);
+            this.panel1.Controls.Add(this.txt_OrderName);
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Location = new System.Drawing.Point(148, 40);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1117, 767);
             this.panel1.TabIndex = 0;
             // 
-            // listView2
+            // dataGridView2
             // 
-            this.listView2.HideSelection = false;
-            this.listView2.Location = new System.Drawing.Point(376, 386);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(668, 212);
-            this.listView2.TabIndex = 9;
-            this.listView2.UseCompatibleStateImageBehavior = false;
+            this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView2.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.PaleTurquoise;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Num,
+            this.Item,
+            this.Category,
+            this.UnitPrice,
+            this.Total});
+            this.dataGridView2.Location = new System.Drawing.Point(334, 450);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersWidth = 51;
+            this.dataGridView2.RowTemplate.Height = 29;
+            this.dataGridView2.Size = new System.Drawing.Size(757, 254);
+            this.dataGridView2.TabIndex = 9;
             // 
-            // listView1
+            // Num
             // 
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(376, 88);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(669, 170);
-            this.listView1.TabIndex = 8;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.Num.HeaderText = "Number";
+            this.Num.MinimumWidth = 6;
+            this.Num.Name = "Num";
+            // 
+            // Item
+            // 
+            this.Item.HeaderText = "ItemName";
+            this.Item.MinimumWidth = 6;
+            this.Item.Name = "Item";
+            // 
+            // Category
+            // 
+            this.Category.HeaderText = "Category";
+            this.Category.MinimumWidth = 6;
+            this.Category.Name = "Category";
+            // 
+            // UnitPrice
+            // 
+            this.UnitPrice.HeaderText = "UnitPrice";
+            this.UnitPrice.MinimumWidth = 6;
+            this.UnitPrice.Name = "UnitPrice";
+            // 
+            // Total
+            // 
+            this.Total.HeaderText = "Total";
+            this.Total.MinimumWidth = 6;
+            this.Total.Name = "Total";
+            // 
+            // ItemsGV
+            // 
+            this.ItemsGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.ItemsGV.BackgroundColor = System.Drawing.Color.PaleTurquoise;
+            this.ItemsGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.ItemsGV.Location = new System.Drawing.Point(330, 79);
+            this.ItemsGV.Name = "ItemsGV";
+            this.ItemsGV.RowHeadersWidth = 51;
+            this.ItemsGV.RowTemplate.Height = 29;
+            this.ItemsGV.Size = new System.Drawing.Size(761, 227);
+            this.ItemsGV.TabIndex = 8;
+            this.ItemsGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ItemsGV_CellContentClick);
             // 
             // label4
             // 
@@ -98,7 +149,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label3.Location = new System.Drawing.Point(520, 310);
+            this.label3.Location = new System.Drawing.Point(665, 420);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(124, 27);
             this.label3.TabIndex = 6;
@@ -109,7 +160,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label2.Location = new System.Drawing.Point(514, 25);
+            this.label2.Location = new System.Drawing.Point(665, 33);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(130, 27);
             this.label2.TabIndex = 5;
@@ -120,55 +171,59 @@
             this.button3.BackColor = System.Drawing.Color.LightSeaGreen;
             this.button3.Font = new System.Drawing.Font("Leelawadee", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(30, 322);
+            this.button3.Location = new System.Drawing.Point(640, 382);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(167, 35);
             this.button3.TabIndex = 4;
             this.button3.Text = "Add To Cart";
             this.button3.UseVisualStyleBackColor = false;
             // 
-            // textBox3
+            // txt_Quantity
             // 
-            this.textBox3.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox3.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.textBox3.Location = new System.Drawing.Point(30, 258);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(167, 35);
-            this.textBox3.TabIndex = 3;
-            this.textBox3.Text = "Quantity";
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_Quantity.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_Quantity.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.txt_Quantity.Location = new System.Drawing.Point(640, 341);
+            this.txt_Quantity.Name = "txt_Quantity";
+            this.txt_Quantity.Size = new System.Drawing.Size(167, 35);
+            this.txt_Quantity.TabIndex = 3;
+            this.txt_Quantity.Text = "Quantity";
+            this.txt_Quantity.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox2
+            // txt_SellerName
             // 
-            this.textBox2.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.textBox2.Location = new System.Drawing.Point(30, 200);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(167, 35);
-            this.textBox2.TabIndex = 2;
-            this.textBox2.Text = "SellerName";
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_SellerName.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_SellerName.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.txt_SellerName.Location = new System.Drawing.Point(30, 200);
+            this.txt_SellerName.Name = "txt_SellerName";
+            this.txt_SellerName.Size = new System.Drawing.Size(167, 35);
+            this.txt_SellerName.TabIndex = 2;
+            this.txt_SellerName.Text = "SellerName";
+            this.txt_SellerName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox1
+            // txt_OrderName
             // 
-            this.textBox1.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.textBox1.Location = new System.Drawing.Point(30, 138);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(167, 35);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "OrderName";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_OrderName.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_OrderName.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.txt_OrderName.Location = new System.Drawing.Point(30, 138);
+            this.txt_OrderName.Name = "txt_OrderName";
+            this.txt_OrderName.Size = new System.Drawing.Size(167, 35);
+            this.txt_OrderName.TabIndex = 1;
+            this.txt_OrderName.Text = "OrderName";
+            this.txt_OrderName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // comboBox1
             // 
             this.comboBox1.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Drink",
+            "Lunch"});
             this.comboBox1.Location = new System.Drawing.Point(30, 76);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(167, 35);
             this.comboBox1.TabIndex = 0;
             this.comboBox1.Text = "Category";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -232,8 +287,11 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "UserOrder";
             this.Text = "UserOrder";
+            this.Load += new System.EventHandler(this.UserOrder_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ItemsGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -246,15 +304,20 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txt_OrderName;
+        private System.Windows.Forms.TextBox txt_SellerName;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.ListView listView2;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.TextBox txt_Quantity;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView ItemsGV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Num;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Item;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Category;
+        private System.Windows.Forms.DataGridViewTextBoxColumn UnitPrice;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Total;
     }
 }
