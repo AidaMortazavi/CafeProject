@@ -32,17 +32,17 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.ItemsGV = new System.Windows.Forms.DataGridView();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
-            this.listView2 = new System.Windows.Forms.ListView();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.CatCb = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txt_ItemName = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txt_ItemPrice = new System.Windows.Forms.TextBox();
+            this.txt_ItemNum = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
@@ -60,6 +60,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ItemsGV)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -109,17 +110,17 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.ItemsGV);
             this.panel2.Controls.Add(this.button6);
             this.panel2.Controls.Add(this.button5);
             this.panel2.Controls.Add(this.button4);
             this.panel2.Controls.Add(this.label8);
-            this.panel2.Controls.Add(this.listView2);
-            this.panel2.Controls.Add(this.comboBox2);
+            this.panel2.Controls.Add(this.CatCb);
             this.panel2.Controls.Add(this.label9);
-            this.panel2.Controls.Add(this.textBox4);
+            this.panel2.Controls.Add(this.txt_ItemName);
             this.panel2.Controls.Add(this.label10);
-            this.panel2.Controls.Add(this.textBox5);
-            this.panel2.Controls.Add(this.textBox6);
+            this.panel2.Controls.Add(this.txt_ItemPrice);
+            this.panel2.Controls.Add(this.txt_ItemNum);
             this.panel2.Controls.Add(this.label11);
             this.panel2.Controls.Add(this.label12);
             this.panel2.Location = new System.Drawing.Point(0, 0);
@@ -127,74 +128,83 @@
             this.panel2.Size = new System.Drawing.Size(1144, 792);
             this.panel2.TabIndex = 2;
             // 
+            // ItemsGV
+            // 
+            this.ItemsGV.BackgroundColor = System.Drawing.Color.PaleTurquoise;
+            this.ItemsGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.ItemsGV.Location = new System.Drawing.Point(482, 193);
+            this.ItemsGV.Name = "ItemsGV";
+            this.ItemsGV.RowHeadersWidth = 51;
+            this.ItemsGV.RowTemplate.Height = 29;
+            this.ItemsGV.Size = new System.Drawing.Size(588, 523);
+            this.ItemsGV.TabIndex = 4;
+            this.ItemsGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ItemsGV_CellContentClick);
+            // 
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.LightSeaGreen;
             this.button6.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button6.Location = new System.Drawing.Point(218, 426);
+            this.button6.Location = new System.Drawing.Point(239, 426);
             this.button6.Name = "button6";
             this.button6.Padding = new System.Windows.Forms.Padding(2);
             this.button6.Size = new System.Drawing.Size(97, 43);
             this.button6.TabIndex = 3;
             this.button6.Text = "Delete";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.LightSeaGreen;
             this.button5.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button5.Location = new System.Drawing.Point(115, 426);
+            this.button5.Location = new System.Drawing.Point(136, 426);
             this.button5.Name = "button5";
             this.button5.Padding = new System.Windows.Forms.Padding(2);
             this.button5.Size = new System.Drawing.Size(97, 43);
             this.button5.TabIndex = 3;
             this.button5.Text = "Edite";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.LightSeaGreen;
             this.button4.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button4.Location = new System.Drawing.Point(12, 426);
+            this.button4.Location = new System.Drawing.Point(33, 426);
             this.button4.Name = "button4";
             this.button4.Padding = new System.Windows.Forms.Padding(2);
             this.button4.Size = new System.Drawing.Size(97, 43);
             this.button4.TabIndex = 3;
             this.button4.Text = "Add";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Leelawadee", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.label8.Location = new System.Drawing.Point(633, 95);
+            this.label8.Location = new System.Drawing.Point(707, 131);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(174, 44);
             this.label8.TabIndex = 0;
             this.label8.Text = "Items List";
             // 
-            // listView2
+            // CatCb
             // 
-            this.listView2.HideSelection = false;
-            this.listView2.Location = new System.Drawing.Point(362, 155);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(725, 586);
-            this.listView2.TabIndex = 3;
-            this.listView2.UseCompatibleStateImageBehavior = false;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(178, 270);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(159, 35);
-            this.comboBox2.TabIndex = 3;
-            this.comboBox2.Text = "Category";
+            this.CatCb.Font = new System.Drawing.Font("Leelawadee", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.CatCb.FormattingEnabled = true;
+            this.CatCb.Items.AddRange(new object[] {
+            "Lunch",
+            "Drink"});
+            this.CatCb.Location = new System.Drawing.Point(178, 270);
+            this.CatCb.Name = "CatCb";
+            this.CatCb.Size = new System.Drawing.Size(159, 35);
+            this.CatCb.TabIndex = 3;
+            this.CatCb.Text = "Category";
             // 
             // label9
             // 
@@ -207,15 +217,15 @@
             this.label9.TabIndex = 1;
             this.label9.Text = "ItemName";
             // 
-            // textBox4
+            // txt_ItemName
             // 
-            this.textBox4.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.textBox4.Location = new System.Drawing.Point(183, 213);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(154, 20);
-            this.textBox4.TabIndex = 2;
+            this.txt_ItemName.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.txt_ItemName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_ItemName.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.txt_ItemName.Location = new System.Drawing.Point(183, 213);
+            this.txt_ItemName.Name = "txt_ItemName";
+            this.txt_ItemName.Size = new System.Drawing.Size(154, 20);
+            this.txt_ItemName.TabIndex = 2;
             // 
             // label10
             // 
@@ -228,26 +238,26 @@
             this.label10.TabIndex = 1;
             this.label10.Text = "ItemPrice";
             // 
-            // textBox5
+            // txt_ItemPrice
             // 
-            this.textBox5.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.textBox5.Location = new System.Drawing.Point(183, 344);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(154, 20);
-            this.textBox5.TabIndex = 2;
-            this.textBox5.Text = "Quantity";
+            this.txt_ItemPrice.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.txt_ItemPrice.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_ItemPrice.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.txt_ItemPrice.Location = new System.Drawing.Point(183, 344);
+            this.txt_ItemPrice.Name = "txt_ItemPrice";
+            this.txt_ItemPrice.Size = new System.Drawing.Size(154, 20);
+            this.txt_ItemPrice.TabIndex = 2;
+            this.txt_ItemPrice.Text = "Quantity";
             // 
-            // textBox6
+            // txt_ItemNum
             // 
-            this.textBox6.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.ForeColor = System.Drawing.Color.LightSeaGreen;
-            this.textBox6.Location = new System.Drawing.Point(183, 165);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(154, 20);
-            this.textBox6.TabIndex = 2;
+            this.txt_ItemNum.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.txt_ItemNum.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_ItemNum.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.txt_ItemNum.Location = new System.Drawing.Point(183, 165);
+            this.txt_ItemNum.Name = "txt_ItemNum";
+            this.txt_ItemNum.Size = new System.Drawing.Size(154, 20);
+            this.txt_ItemNum.TabIndex = 2;
             // 
             // label11
             // 
@@ -438,10 +448,12 @@
             this.Name = "ItemsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ItemsForm";
+            this.Load += new System.EventHandler(this.ItemsForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ItemsGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -469,15 +481,15 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ListView listView2;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox CatCb;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txt_ItemName;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txt_ItemPrice;
+        private System.Windows.Forms.TextBox txt_ItemNum;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.DataGridView ItemsGV;
     }
 }

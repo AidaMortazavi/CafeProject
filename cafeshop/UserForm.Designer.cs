@@ -72,6 +72,7 @@ namespace cafeshop
             // 
             // UsersGV
             // 
+            this.UsersGV.BackgroundColor = System.Drawing.Color.PaleTurquoise;
             this.UsersGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.UsersGV.Location = new System.Drawing.Point(552, 247);
             this.UsersGV.Name = "UsersGV";

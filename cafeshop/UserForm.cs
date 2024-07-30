@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.ComponentModel.DataAnnotations.Schema;
-//using System.Data.SqlClient.SqlException;
+
 
 
 namespace cafeshop
@@ -137,7 +137,7 @@ namespace cafeshop
             else
             {
                 Con.Open();
-                string query = "update UsersTb1 set Uname='"+txt_Name+"', Upass='"+txt_Pass+ "'where Uphone='"+txt_Phone+"'";
+                string query = "update UsersTb1 set Uname='"+txt_Name.Text+"', Upass='"+txt_Pass.Text+ "'where Uphone='"+txt_Phone.Text+"'";
                 SqlCommand cmd = new SqlCommand(query, Con);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("User Successfully Updated");
